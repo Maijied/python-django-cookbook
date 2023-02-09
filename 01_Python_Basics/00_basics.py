@@ -1,9 +1,9 @@
-'''
+"""
 Python is a high-level, interpreted, general-purpose programming language. It was created by Guido van Rossum and first
 released in 1991. Python is easy to learn and its syntax is simple to understand, making it an ideal language for
 beginners. It has a wide variety of applications in fields such as web development, data science, scripting, automation,
 artificial intelligence, and more.
-'''
+"""
 
 # import built-in functions
 from math import *

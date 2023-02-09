@@ -1,8 +1,8 @@
-'''
+"""
 Files read write =>
 File Reading and Writing in Python is a process of reading and writing data from and to files. It is a very common
 operation in programming, as it allows programs to read data from files, write data to files, or both.
-'''
+"""
 
 # open('countries.txt','a'-> 2nd parameter =>r: read, w: write, a:append, r+: reading and writing
 country_file = open('../assets/countries.txt', 'r')

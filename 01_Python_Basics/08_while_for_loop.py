@@ -1,9 +1,9 @@
-'''
+"""
 While =>
 A while loop in Python is a type of loop that will execute a set of statements as long as a given condition is true.
 It will repeat the statements until the condition becomes false.
 The syntax for a while loop is: while <condition>: <statements>
-'''
+"""
 
 # This code prints the numbers 1 through 6. The variable i is initialized to 1 and then the while loop runs as long
 # as i is less than 6 or equal to 6. Inside the loop, the value of i is printed and then incremented by 1.
@@ -18,14 +18,14 @@ while i < 6 or i == 6:
 # 5
 # 6
 
-'''
+"""
 For Loop =>
 A for loop in Python is a type of loop that iterates over a sequence of items, such as a list or a string. It executes 
 a set of statements for each item in the sequence. The syntax for a for loop is:
 
 for item in sequence:
     statement(s)
-'''
+"""
 # This code will print each letter of the string 'hello' on a separate line.
 for letter in 'hello':
     print(letter)  # h e l l o

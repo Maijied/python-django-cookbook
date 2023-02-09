@@ -1,8 +1,8 @@
-'''
+"""
 If-else statements in Python are used to execute different code depending on whether a certain condition is true or
 false. They are used to control the flow of a program, allowing it to make decisions and perform different actions based
 on the user's input or other conditions.
-'''
+"""
 
 a = 4
 b = 3

@@ -1,10 +1,10 @@
-'''
+"""
 List =>
 Python lists are a data structure that stores an ordered collection of items. They are mutable, meaning they can be
 changed in-place and are very versatile for use in programs. Lists can contain any type of object, including numbers,
 strings, and other lists. They are also easy to iterate over with for loops and can be used to store data in a
 structured way.
-'''
+"""
 
 countries = ['Ghana', 'America', 'Canada', 'Greece', 'Saudi Arabia', 'UK']
 print(countries)  # ['Ghana', 'America', 'Canada', 'Greece', 'Saudi Arabia', 'UK']

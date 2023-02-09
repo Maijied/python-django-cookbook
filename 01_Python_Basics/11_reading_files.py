@@ -5,7 +5,7 @@ operation in programming, as it allows programs to read data from files, write d
 '''
 
 # open('countries.txt','a'-> 2nd parameter =>r: read, w: write, a:append, r+: reading and writing
-country_file = open('assets/countries.txt', 'r')
+country_file = open('../assets/countries.txt', 'r')
 # This code opens a file called 'countries.txt' located in the 'assets' folder and checks if the file is readable.
 print(country_file.readable())  # return true or false
 # This code reads the first line of a file called "country_file" and prints it out.
@@ -23,18 +23,18 @@ for line in country_file.readlines():
 country_file.close()
 
 '''
-# This code opens a file called 'assets/writehere.txt' in write mode also create file if not exists, prompts the user to 
+# This code opens a file called '../assets/writehere.txt' in write mode also create file if not exists, prompts the user to 
 # enter some text,  and then writes that text to the file before closing it.
 '''
 '''
-country_file2 = open('assets/writehere.txt', 'w')
+country_file2 = open('../assets/writehere.txt', 'w')
 writeText = input('Write here to save data : ')
 country_file2.write(writeText)
 country_file2.close()
 '''
 
 '''
-country_file3 = open('assets/newfile.txt', 'w')
+country_file3 = open('../assets/newfile.txt', 'w')
 writeText = input('Write here to save data : ')
 country_file3.write(writeText)
 country_file3.close()
@@ -44,7 +44,7 @@ country_file3.close()
 # enter some text which is stored in the variable writeText. The code then writes the contents of writeText to the file 
 # and closes it.
 '''
-write_file = open('assets/writehere.txt', 'a')
+write_file = open('../assets/writehere.txt', 'a')
 writeText = input('Write here to save data : ')
 write_file.write('\n' + writeText)
 write_file.close()

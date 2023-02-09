@@ -58,4 +58,4 @@ Here is a complete list of what is covered in this repo:
 - ✨Magic ✨
 
 
-**Free Software, Hell Yeah!**
+**Free Repo, Hell Yeah!**

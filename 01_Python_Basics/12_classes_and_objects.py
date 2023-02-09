@@ -15,6 +15,7 @@ with external code. Methods can be used to get or set the value of an attribute,
 methods within the same object.
 '''
 
+
 # This code creates an instance of the class MyClass and assigns it to the variable p1. It then prints the value of
 # the attribute x, which is 5.
 class MyClass:
@@ -23,6 +24,7 @@ class MyClass:
 
 p1 = MyClass()
 print(p1.x)  # 5
+
 
 # This code creates a Person object with the given name and age. It then prints out the name and age of the Person
 # object.
@@ -38,5 +40,3 @@ age = int(input('Enter Your Name : '))
 PersonObj = Person(name, age)
 # del PersonObj.age  # Delete Object
 print(PersonObj.name + " And", PersonObj.age)  # MaJHi And 71
-
-

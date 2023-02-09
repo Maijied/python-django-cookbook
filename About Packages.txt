@@ -1,0 +1,7 @@
+PIP is the package installer for Python. You can use pip to install packages from the Python Package Index and other indexes.
+[N.B:: Pip automatically install with Python]
+
+0 . Install Python -> Download -> https://www.python.org/downloads/
+1 . PyPI · The Python Package Index -> https://pypi.org/
+2 . django-deep-serializer 0.1.3  -> pip install django-deep-serializer
+3 . Django  ->  pip install Django==4.1.6 -> https://www.djangoproject.com/

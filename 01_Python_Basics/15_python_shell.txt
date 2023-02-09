@@ -1,0 +1,32 @@
+Python 3.10.9 (tags/v3.10.9:1dd9be6, Dec  6 2022, 20:01:21) [MSC v.1934 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> print('Hope you are enjoying this cookbook')
+Hope you are enjoying this cookbook
+>>> name = 'MaJHi'
+>>> print(name)
+MaJHi
+>>> for letter in 'majhi':
+...     print(letter)
+...
+m
+a
+j
+h
+i
+>>> 2+3
+5
+>>> def say_hi(name):
+...     print('Hi '+ name)
+...
+>>> say_hi('majhi')
+Hi majhi
+>>> try:
+...     age - int(input('Enter yout age : '))
+... except:
+...     print('Something went wrong!')
+... finally:
+...     print('All ok')
+...
+Something went wrong!
+All ok
+>>>

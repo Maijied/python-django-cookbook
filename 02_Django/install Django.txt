@@ -1,0 +1,17 @@
+Django ->
+Django is an open-source web framework written in Python. It is designed to help developers create complex,
+database-driven websites quickly and easily. Django includes a variety of features such as an object-relational mapper,
+URL routing, authentication and authorization, site maps, and more. It also provides a powerful admin interface for
+managing content and users.
+
+Step 1 : Django  ->  pip install Django==4.1.6 ; Ref.: https://www.djangoproject.com/
+Step 2 : Create Virtual Environment -> pip install virtualenvwrapper-win ; Ref.: https://pypi.org/project/virtualenvwrapper-win/
+Step 3 : Go-to project directory using cmd
+Step 4 : mkvirtualenv <Your_Project_Name>
+Step 5 : pip install django
+Step 6 : Create Project ->  django-admin startproject django_search
+[N.B.: To deactivate virtual env use "deactivate" and to activate virtual env use "workon <project_name>" in project path using CMD]
+Step 7 : initiate Project ->  cmd -> python manage.py startapp app<app_name>
+Step 8 : Url Configuration ->  Create File -> app root -> urls.py
+Step 9 : Run Project ->  cmd -> app root -> python manage.py runserver
+

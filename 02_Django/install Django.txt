@@ -11,7 +11,7 @@ Step 4 : mkvirtualenv <Your_Project_Name>
 Step 5 : pip install django
 Step 6 : Create Project ->  django-admin startproject django_search
 [N.B.: To deactivate virtual env use "deactivate" and to activate virtual env use "workon <project_name>" in project path using CMD]
-Step 7 : initiate Project ->  cmd -> python manage.py startapp app<app_name>
+Step 7 : Initiate Project ->  cmd -> python manage.py startapp <app_name>   #To create Subset of main project
 Step 8 : Url Configuration ->  Create File -> app root -> urls.py
 Step 9 : Run Project ->  cmd -> app root -> python manage.py runserver
 

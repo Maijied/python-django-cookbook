@@ -9,6 +9,5 @@ def index(request):
         'name': 'MaJHi',
         'age': 71,
         'nationality': 'Bangladeshi',
-
     }
     return render(request, 'index.html', {'data': context, 'name': name})

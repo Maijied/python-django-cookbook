@@ -16,6 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path, include
 
+# This code is used to create URL patterns for the Django project. The first line tells Django to look for URLs in
+# the admin page. The second line tells Django to look for URLs in the app.urls file. The third line tells Django to
+# look for URLs in the word_counter.urls file.
+
 urlpatterns = {
     path('admin/', admin.site.urls),
     path('', include('app.urls')),

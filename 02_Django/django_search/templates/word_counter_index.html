@@ -1,8 +1,22 @@
+{#This code creates an HTML form with a textarea and a submit button. When the user enters some text in the textarea and
+clicks on the submit button, the form is submitted to the server. The server then processes the data and returns a response.
+#}
+
+
 <p>-----------------------------------------------------------------------</p>
-<h1>*Word Counter*</h1>
+<h1>*Word Counter using GET method*</h1>
 <p>-----------------------------------------------------------------------</p>
 <h3>Input your text below :</h3>
-<form method="" action="counter">
+<form method="GET" action="counter">
+    <textarea name="word_count_text" rows="10" cols="50"></textarea><br>
+    <input type="submit"/>
+</form>
+<p>-----------------------------------------------------------------------</p><p>-----------------------------------------------------------------------</p>
+<h1>*Word Counter using POST method*</h1>
+<p>-----------------------------------------------------------------------</p>
+<h3>Input your text below :</h3>
+<form method="POST" action="counter_post">
+    {% csrf_token %}
     <textarea name="word_count_text" rows="10" cols="50"></textarea><br>
     <input type="submit"/>
 </form>
